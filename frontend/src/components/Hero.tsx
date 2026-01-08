@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, Linkedin, Mail, MapPin, Clock, Calendar, Sun, ExternalLink, ArrowRight } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Clock, Calendar, Sun, ArrowRight } from 'lucide-react';
 import LaserFlow from './LaserFlow';
 import StarBorder from './StarBorder';
 import ShinyButton from './ShinyButton';

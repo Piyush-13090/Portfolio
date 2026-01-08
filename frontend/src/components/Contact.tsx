@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Send, CheckCircle, AlertCircle, Github, Linkedin, ExternalLink } from 'lucide-react';
+import { Mail, MapPin, Send, CheckCircle, AlertCircle, Github, Linkedin } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import ShinyButton from './ShinyButton';
 
@@ -33,7 +33,7 @@ export default function Contact() {
       formRef.current,
       '-TJbpo8vjOD9qfJha'
     )
-      .then((result) => {
+      .then(() => {
         setStatus('success');
         setStatusMessage('Message sent successfully! I\'ll get back to you soon.');
         setForm({ name: '', email: '', subject: '', message: '' });
