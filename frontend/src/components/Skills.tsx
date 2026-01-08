@@ -1,19 +1,17 @@
 import { motion } from 'framer-motion';
 import {
   SiReact, SiNodedotjs, SiTypescript, SiJavascript,
-  SiHtml5, SiCss3, SiPostgresql,
-  SiGit, SiDocker,
-  SiTailwindcss, SiPython,
-  SiCplusplus, SiC, SiFlask, SiBootstrap, SiMysql, SiGithub, SiCanva,
+  SiHtml5, SiMysql, SiGithub,
   SiNextdotjs, SiMongodb, SiExpress,
   SiPandas, SiNumpy, SiPrisma, SiJsonwebtokens,
-  SiFramer, SiThreedotjs, SiFigma, SiPostman, SiVercel, SiChartdotjs
+  SiFramer, SiFigma, SiPostman, SiVercel,
+  SiPython, SiTailwindcss, SiGit
 } from 'react-icons/si';
-import { FaJava } from 'react-icons/fa';
+
 import {
-  Cpu, Binary, Layers, Box, Network,
-  Brain, FileSpreadsheet, Bot, Globe, Database,
-  Terminal, Puzzle, Lightbulb
+  Binary, Layers, Box,
+  Brain, FileSpreadsheet, Bot, Globe,
+  Terminal, Puzzle
 } from 'lucide-react';
 import ElectricBorder from './ElectricBorder';
 

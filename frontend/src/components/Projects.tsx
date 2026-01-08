@@ -1,20 +1,20 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Smartphone, Layout, Calculator, Gamepad2, FileText, Activity, Sigma, Repeat, Coffee, Palette, Scissors } from 'lucide-react';
+import { ExternalLink, Github, Smartphone, Layout } from 'lucide-react';
 import Magnet from './Magnet';
-import imgRockPaperScissors from '../assets/projects/rockpaperscissors.jpg';
+
 
 const projects = [
-{
-  id: 1,
-  title: 'AI Thumbnail Maker',
-  description: 'A full-stack AI-powered thumbnail generation platform that enables users to create high-quality YouTube and social media thumbnails using Hugging Face AI models. Built with a modern, responsive UI, real-time preview, and prompt-based image generation.',
-  image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
-  tech: ['React.js', 'TypeScript', 'Tailwind CSS', 'Hugging Face API'],
-  icon: Layout,
-  github: 'https://github.com/Piyush-13090/Thumbnail.go',
-  live: 'https://thumbnail-go.vercel.app/',
-  color: 'from-indigo-500 to-purple-600',
-},
+  {
+    id: 1,
+    title: 'AI Thumbnail Maker',
+    description: 'A full-stack AI-powered thumbnail generation platform that enables users to create high-quality YouTube and social media thumbnails using Hugging Face AI models. Built with a modern, responsive UI, real-time preview, and prompt-based image generation.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
+    tech: ['React.js', 'TypeScript', 'Tailwind CSS', 'Hugging Face API'],
+    icon: Layout,
+    github: 'https://github.com/Piyush-13090/Thumbnail.go',
+    live: 'https://thumbnail-go.vercel.app/',
+    color: 'from-indigo-500 to-purple-600',
+  },
   {
     id: 2,
     title: 'Forever',
